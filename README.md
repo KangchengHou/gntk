@@ -2,7 +2,7 @@
 
 This repository implements Graph Neural Tangent Kernel (infinitely wide multi-layer GNNs trained by gradient descent), described in the following paper:
 
-Simon S. Du, Kangcheng Hou, Barnabás Póczos, Ruslan Salakhutdinov, Ruosong Wang, Keyulu Xu. Graph Neural Tangent Kernel: Fusing Graph Neural Networks with Graph Kernels. NeurIPS 2019. [[arXiv]](https://arxiv.org/abs/1905.13192)
+Simon S. Du, Kangcheng Hou, Barnabás Póczos, Ruslan Salakhutdinov, Ruosong Wang, Keyulu Xu. Graph Neural Tangent Kernel: Fusing Graph Neural Networks with Graph Kernels. NeurIPS 2019. [[arXiv]](https://arxiv.org/abs/1905.13192) [[Paper]](https://papers.nips.cc/paper/8809-graph-neural-tangent-kernel-fusing-graph-neural-networks-with-graph-kernels)
 
 
 ## Test run

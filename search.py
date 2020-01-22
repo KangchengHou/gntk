@@ -38,7 +38,7 @@ def search(dataset, data_dir):
     svc = SVC(kernel='precomputed', cache_size=16000, max_iter=5e5)
     clf = GridSearchCV(svc, {'C' : C_list},
                 cv=zip(train_fold_idx, test_fold_idx),
-                n_jobs=80, verbose=0)
+                n_jobs=80, verbose=0, return_train_score=True)
     clf.fit(gram_nor, labels)
     df_nor = pd.DataFrame({'C': C_list,
         'train': clf.cv_results_['mean_train_score'],
